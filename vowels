@@ -1,0 +1,6 @@
+string=input("enter a string to extract its vowels")
+l=[]
+for i in string:
+    if i in "aeiouAEIOU":
+        l.append(i)
+print('vowels present are',l)    
